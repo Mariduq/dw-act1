@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hawaii</title>
+    <!-- Enlazamos esta pagina con el archivo de estilos -->
+    <link href="assets/css/styles.css" rel="stylesheet" type="text/css">
+
+</head>
+<body>
+    <div id="container">
+
+        <div id="encabezado">
+            <h3>HAWÁI: TODO LO QUE DEBES SABER</h3>
+        </div>
+
+        <!-- navegador del sitio -->
+        <div id="nav">
+            <ol>
+                <!-- Clase de styles.css cambia el color del elemento seleccionado -->
+                <li> <a href="index.html">INICIO</a>  </li>
+                <li> <a href="historia.html">HISTORIA</a>  </li>
+                <li> <a href="cultura.html">CULTURA</a>  </li>
+                <li> <a href="turismo.html">TURISMO</a>  </li>
+                <li class="activa"> <a href="contactos.html">CONTACTOS</a> </li>
+            </ol>
+        </div>
+
+        <!-- contenido -->
+        <div id="cuerpo">
+            <h2>Contactos</h2>
+            <hr>
+            <h5>Para más información dejanos un mensaje</h5>
+
+            <div id="contact">
+                <form action="#" method="post">
+                    <label for="idnombre">Nombre</label><br>
+                    <input type="text" name="nombre" id="idnombre" required placeholder="Ingrese su nombre"><br>
+                    
+                    <label for="idcorreo">Correo Electrónico</label><br>
+                    <input type="email" name="correo" id="idcorreo" required placeholder="Ingrese su email"><br>
+                    
+                    <label for="idmensaje">Mensaje</label><br>
+                    <textarea name="mensaje" id="idmensaje" cols="50" rows="20" required placeholder="Escriba su mensaje aquí"></textarea><br>
+                    <br>
+    
+                    <button type="submit">Enviar Mensaje</button>
+                    <button type="reset">Borrar Mensaje</button>
+                    <br><br>
+                </form>
+            </div>
+            
+        </div>
+        <div id="footer">
+            &copy; 2023. Todos los derechos reservados. <br> Maracaibo - Venezuela.
+        </div>
+
+    </div>
+</body>
+</html>

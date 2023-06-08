@@ -1,0 +1,159 @@
+/* margin es borde exterior, padding es borde interior */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(255, 214, 214);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16pt;
+    color: crimson;
+}
+
+#container{
+    width: 100%;
+    height: 100%;
+    display: table;
+}
+
+#encabezado{
+    width: 100%;
+    height: 350px;
+    background-color: rgba(173, 163, 135, 0.278);
+    display: table;
+    text-align: center;
+    line-height: 350px;
+    background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftrustholiday.com%2Fimages%2Fitin%2F2018%2Fhawaii.jpg&f=1&nofb=1&ipt=19016278077f00997574dbf24c4967a6b6b7ed7f26fa145458445366f557e232&ipo=images);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: white;
+    font-size: 22pt;
+}
+
+/* Estilo del navegador */
+#nav{
+    width: 100%;
+    display: table;
+    background-color: black;
+    color: white;
+}
+
+#nav ol{
+    display: flex;
+}
+
+#nav ol li{
+    list-style: none;
+    border-right: 1px solid black;
+}
+
+#nav ol li a{
+    color: white;
+    text-decoration: none !important;
+    padding: 15px 18px;
+    display: table;
+}
+
+#nav ol li a:hover{
+    background-color: rgb(43, 43, 43);
+    color: white;
+}
+
+
+.activa{
+   background-color: rgb(43, 43, 43); 
+   color: #ffffff;
+}
+
+/* Estilos de imagenes */
+.imagen-redonda{
+    border-radius: 2%;
+    width: 90%;
+    height: 400px;
+}
+
+.imagen-centro{
+    display: table;
+    margin: auto auto;
+}
+
+#cuerpo{
+    width: 90%;
+    /* height: 100%; */
+    color: black; 
+    display: table;
+    padding: 4% 4% 4% 4%;
+
+}
+
+#cuerpo h2{
+    margin-bottom: 3%;
+    text-align: center;
+}
+
+#cuerpo h3{
+    margin-top: 1%;
+    text-align: center;
+}
+
+#cuerpo p{
+    font-family: 'Arial', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 14pt;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    text-align: justify;
+}
+
+#cuerpo h5{
+    text-align: center;
+    margin-bottom: 1%;
+}
+
+#contact{
+    padding: 0% 3% 3% 7%;
+}
+
+input{
+    width: 40%;
+    padding: 10px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid rgb(191, 182, 197);
+    border-radius: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+textarea{
+    padding: 10px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid rgb(191, 182, 197);
+    border-radius: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    resize: none;
+}
+
+button{
+    background-color: #d44136;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+ul{
+    padding-left: 2%;
+}
+
+#footer{
+    width: 100%;
+    height: 75px;
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    padding-top: 3%;
+}
+
